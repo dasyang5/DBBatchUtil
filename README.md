@@ -7,6 +7,7 @@ Java数据库批处理工具
 
 ```
 Entrance entrance = new HibernateEntrance(url, username, password, driverClassName);
+//list1 list2 list3是实体类的数组
 entrance.start()开始事务<
         .insertObject(list1)//插入数据
         .insertObject(list2)//插入数据
